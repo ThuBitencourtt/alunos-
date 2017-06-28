@@ -421,7 +421,7 @@ void case3() {
   gotoxy(62, 1);
   printf("%c", lateral);
   gotoxy(65, 1);
-  printf("Media");
+  printf("M%cdia",130);
   gotoxy(74, 1);
   printf("%c", lateral);
 
