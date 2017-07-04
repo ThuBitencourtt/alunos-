@@ -240,7 +240,7 @@ void case1() {
       LimparScan();
       if (matriculaAUX == turma[matriculaAUX].matricula) {
         gotoxy(22, 6);
-        printf("Matricula já existente  ");
+        printf("Matricula j%c existente  ", 160);
         aux1++;
         gotoxy(20, 10);
         system("pause");
@@ -421,7 +421,7 @@ void case3() {
   gotoxy(62, 1);
   printf("%c", lateral);
   gotoxy(65, 1);
-  printf("M%cdia",130);
+  printf("M%cdia", 130);
   gotoxy(74, 1);
   printf("%c", lateral);
 
@@ -509,3 +509,4 @@ void remove_newline_ch(char *line) {
   if (line[new_line] == '\n')
     line[new_line] = '\0';
 }
+
